@@ -1,0 +1,15 @@
+<div>
+    <h2>Camera</h2>
+    <button (click)=
+    "toggleCamera()">Toggle Camera</button>
+    <button (click)=
+    "takePicture()">Take Picture</button>
+    <img *ngIf=
+    "capturedImage" [src]=
+    "capturedImage" alt=
+    "Captured
+    Image">
+    <p *ngIf=
+    "cityInfo">City: {{ cityInfo }}</p>
+    </div>
+    
